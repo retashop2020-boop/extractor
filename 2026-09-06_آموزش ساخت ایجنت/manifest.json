@@ -1,0 +1,45 @@
+{
+  "schema_version": 4,
+  "exported_at": "2026-10-14T21:05:35.823Z",
+  "conversation_count": 1,
+  "embedded_markdown": false,
+  "capabilities": {
+    "bearer_token": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-14T20:13:40.807Z"
+    },
+    "conversation_api": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-14T21:05:35.823Z"
+    }
+  },
+  "files": [
+    {
+      "path": "2026-09-06_sans-titre.md",
+      "size": 1816995,
+      "sha256": "a0916252e5e26f774d6836419125cb7e52c977942e17f72ce7472eb1311c7ae1"
+    },
+    {
+      "path": "2026-09-06_sans-titre.html",
+      "size": 2284867,
+      "sha256": "96e1e015a4d29cb9b9b116e2deff8c26f1c2be095fa29789ca8460559cd6999e"
+    },
+    {
+      "path": "2026-09-06_sans-titre.json",
+      "size": 7464105,
+      "sha256": "3a10f39d8cbb00c32c421e48c274749075eb37fd37f61af439444bfc7a0b61aa"
+    },
+    {
+      "path": "2026-09-06_sans-titre.metadata.json",
+      "size": 918,
+      "sha256": "249bfa7ce666c9c53026443b4683ffac0d4e5d4ea78fdf099f0dbcc01ebf79bf"
+    },
+    {
+      "path": "_capabilities.json",
+      "size": 236,
+      "sha256": "b879bd5d90b891d25d0bd26bada8cc030ef42ce628cb77207dfd65d7a0b1edc0"
+    }
+  ]
+}
