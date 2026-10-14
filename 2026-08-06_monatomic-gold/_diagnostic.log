@@ -1,0 +1,2927 @@
+{
+  "notice": "Diagnostic log generated locally. Conversation text, authentication tokens, query strings, and raw message content are intentionally omitted.",
+  "schema": 1,
+  "extension_version": "0.6.25",
+  "generated_at": "2026-10-14T20:17:04.220Z",
+  "page": {
+    "origin": "https://chatgpt.com",
+    "path": "/c/<id:36>"
+  },
+  "target": {
+    "type": "conversation",
+    "shareRoute": null,
+    "id_length": 36
+  },
+  "busy": true,
+  "capabilities": {
+    "bearer_token": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-14T20:13:40.807Z"
+    },
+    "conversation_api": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-14T20:17:04.219Z"
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-14T20:13:40.477Z",
+      "event": "export.start",
+      "details": {
+        "kind": "cgx-export-current",
+        "options": {
+          "format": "both",
+          "md": true,
+          "html": true,
+          "images": true,
+          "files": true,
+          "json": true,
+          "thinking": false,
+          "embeddedMd": false,
+          "modernEmbeddedMd": false,
+          "branches": true,
+          "incremental": false,
+          "checksums": true,
+          "partSizeMB": 1024
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:40.477Z",
+      "event": "progress",
+      "details": {
+        "percent": 1,
+        "label": "Starting export…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:40.477Z",
+      "event": "target.detected",
+      "details": {
+        "type": "conversation",
+        "shareRoute": null,
+        "id_length": 36
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:40.807Z",
+      "event": "capability",
+      "details": {
+        "name": "bearer_token",
+        "status": "available",
+        "detail": ""
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:40.807Z",
+      "event": "progress",
+      "details": {
+        "percent": 4,
+        "label": "Session ready.",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:40.808Z",
+      "event": "progress",
+      "details": {
+        "percent": 8,
+        "label": "Reading conversation…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:45.078Z",
+      "event": "progress",
+      "details": {
+        "percent": 14,
+        "label": "Preparing messages…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:45.434Z",
+      "event": "progress",
+      "details": {
+        "percent": 21,
+        "label": "Processing images (0/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:46.048Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:46.349Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:48.711Z",
+      "event": "progress",
+      "details": {
+        "percent": 22,
+        "label": "Processing images (1/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:48.980Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:49.271Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:50.104Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "assets.fishersci.com",
+        "error": {
+          "name": "Error",
+          "message": "HTTP 403",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:50.104Z",
+      "event": "progress",
+      "details": {
+        "percent": 22,
+        "label": "Processing images (2/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:50.376Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:50.665Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:51.096Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "pubs.rsc.org",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:51.096Z",
+      "event": "progress",
+      "details": {
+        "percent": 23,
+        "label": "Processing images (3/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:51.378Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:51.537Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:52.071Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "ars.els-cdn.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:52.071Z",
+      "event": "progress",
+      "details": {
+        "percent": 24,
+        "label": "Processing images (4/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:52.404Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:52.680Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:53.305Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "med.news.am",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:53.306Z",
+      "event": "progress",
+      "details": {
+        "percent": 24,
+        "label": "Processing images (5/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:53.609Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:53.878Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:54.409Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.mdpi.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:54.409Z",
+      "event": "progress",
+      "details": {
+        "percent": 25,
+        "label": "Processing images (6/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:54.699Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:55.017Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:55.667Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "nn-labs.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:55.667Z",
+      "event": "progress",
+      "details": {
+        "percent": 26,
+        "label": "Processing images (7/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:55.847Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:56.160Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:56.833Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.nanobrand.com",
+        "error": {
+          "name": "Error",
+          "message": "HTTP 404",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:56.834Z",
+      "event": "progress",
+      "details": {
+        "percent": 26,
+        "label": "Processing images (8/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:57.137Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:57.765Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:59.218Z",
+      "event": "progress",
+      "details": {
+        "percent": 27,
+        "label": "Processing images (9/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:59.515Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:13:59.878Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:00.544Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "nanocomposix.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:00.545Z",
+      "event": "progress",
+      "details": {
+        "percent": 28,
+        "label": "Processing images (10/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:00.713Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:00.865Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:22.741Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "researchmatters.in",
+        "error": {
+          "name": "Error",
+          "message": "The operation was aborted. ",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:22.742Z",
+      "event": "progress",
+      "details": {
+        "percent": 28,
+        "label": "Processing images (11/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:23.030Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:23.183Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:23.979Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "dng-bp.hu",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:23.979Z",
+      "event": "progress",
+      "details": {
+        "percent": 28,
+        "label": "Processing images (12/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:24.310Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:24.656Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:29.649Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.seishin-syoji.co.jp",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:29.650Z",
+      "event": "progress",
+      "details": {
+        "percent": 29,
+        "label": "Processing images (13/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:29.938Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:30.214Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:31.103Z",
+      "event": "progress",
+      "details": {
+        "percent": 30,
+        "label": "Processing images (14/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:31.387Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:31.666Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:32.897Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.cloud4u.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:32.897Z",
+      "event": "progress",
+      "details": {
+        "percent": 30,
+        "label": "Processing images (15/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:54.298Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "media.gettyimages.com",
+        "error": {
+          "name": "Error",
+          "message": "The operation was aborted. ",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:54.593Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:54.873Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:54.873Z",
+      "event": "progress",
+      "details": {
+        "percent": 31,
+        "label": "Processing images (16/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:55.166Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:55.657Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:57.783Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "blog.kakaocdn.net",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:57.783Z",
+      "event": "progress",
+      "details": {
+        "percent": 32,
+        "label": "Processing images (17/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:58.086Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:58.416Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:14:59.843Z",
+      "event": "progress",
+      "details": {
+        "percent": 32,
+        "label": "Processing images (18/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:00.131Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:00.468Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:01.267Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.crn.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:01.267Z",
+      "event": "progress",
+      "details": {
+        "percent": 33,
+        "label": "Processing images (19/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:01.550Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:01.856Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:04.197Z",
+      "event": "progress",
+      "details": {
+        "percent": 34,
+        "label": "Processing images (20/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:04.488Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:04.760Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:05.400Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "cdn.wccftech.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:05.401Z",
+      "event": "progress",
+      "details": {
+        "percent": 34,
+        "label": "Processing images (21/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:05.703Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:05.991Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:06.967Z",
+      "event": "progress",
+      "details": {
+        "percent": 35,
+        "label": "Processing images (22/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:07.253Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:07.531Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:09.088Z",
+      "event": "progress",
+      "details": {
+        "percent": 36,
+        "label": "Processing images (23/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:09.361Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:09.517Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:10.932Z",
+      "event": "progress",
+      "details": {
+        "percent": 36,
+        "label": "Processing images (24/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:11.220Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:11.419Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:13.486Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "cloud.watch.impress.co.jp",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:13.486Z",
+      "event": "progress",
+      "details": {
+        "percent": 37,
+        "label": "Processing images (25/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:13.777Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:14.074Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:15.025Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.servethehome.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:15.025Z",
+      "event": "progress",
+      "details": {
+        "percent": 37,
+        "label": "Processing images (26/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:15.303Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:15.465Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:16.216Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "img.generation-nt.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:16.216Z",
+      "event": "progress",
+      "details": {
+        "percent": 37,
+        "label": "Processing images (27/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:16.555Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:16.885Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:38.762Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "n.sinaimg.cn",
+        "error": {
+          "name": "Error",
+          "message": "The operation was aborted. ",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:38.762Z",
+      "event": "progress",
+      "details": {
+        "percent": 38,
+        "label": "Processing images (28/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:38.919Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:39.088Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:40.314Z",
+      "event": "progress",
+      "details": {
+        "percent": 39,
+        "label": "Processing images (29/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:40.482Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:40.675Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:43.302Z",
+      "event": "progress",
+      "details": {
+        "percent": 39,
+        "label": "Processing images (30/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:43.589Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:43.784Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:44.482Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.nextplatform.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:44.483Z",
+      "event": "progress",
+      "details": {
+        "percent": 40,
+        "label": "Processing images (31/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:44.774Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:45.350Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:46.408Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "infotechlead.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:46.408Z",
+      "event": "progress",
+      "details": {
+        "percent": 41,
+        "label": "Processing images (32/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:46.723Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:46.903Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:48.709Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "miro.medium.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:48.709Z",
+      "event": "progress",
+      "details": {
+        "percent": 42,
+        "label": "Processing images (33/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:49.011Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:53.192Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:53.936Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "rutificador.cl",
+        "error": {
+          "name": "Error",
+          "message": "HTTP 404",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:53.937Z",
+      "event": "progress",
+      "details": {
+        "percent": 42,
+        "label": "Processing images (34/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:54.258Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:54.568Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:56.600Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "img1.daumcdn.net",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:56.600Z",
+      "event": "progress",
+      "details": {
+        "percent": 43,
+        "label": "Processing images (35/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:56.937Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:15:57.296Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:19.159Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "i.epochtimes.com",
+        "error": {
+          "name": "Error",
+          "message": "The operation was aborted. ",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:19.160Z",
+      "event": "progress",
+      "details": {
+        "percent": 44,
+        "label": "Processing images (36/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:19.448Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:19.771Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:22.707Z",
+      "event": "progress",
+      "details": {
+        "percent": 44,
+        "label": "Processing images (37/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:23.068Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:23.353Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:24.508Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.hothardware.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:24.509Z",
+      "event": "progress",
+      "details": {
+        "percent": 45,
+        "label": "Processing images (38/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:25.651Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:25.967Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:27.660Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "i.pinimg.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:27.660Z",
+      "event": "progress",
+      "details": {
+        "percent": 46,
+        "label": "Processing images (39/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:27.975Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:28.257Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:28.931Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "ocl-steinberg-live.steinberg.net",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:28.931Z",
+      "event": "progress",
+      "details": {
+        "percent": 46,
+        "label": "Processing images (40/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:29.249Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:30.114Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:30.986Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "cdn.wallpapersafari.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:30.986Z",
+      "event": "progress",
+      "details": {
+        "percent": 46,
+        "label": "Processing images (41/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:31.304Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:31.635Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:34.202Z",
+      "event": "progress",
+      "details": {
+        "percent": 47,
+        "label": "Processing images (42/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:34.494Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:34.769Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:35.483Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "www.maison-et-bricolage.fr",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:35.483Z",
+      "event": "progress",
+      "details": {
+        "percent": 47,
+        "label": "Processing images (43/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:35.856Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:36.137Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.717Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "sierra.gr",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.718Z",
+      "event": "progress",
+      "details": {
+        "percent": 48,
+        "label": "Processing images (44/44)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.718Z",
+      "event": "progress",
+      "details": {
+        "percent": 50,
+        "label": "No attachments to download.",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.718Z",
+      "event": "progress",
+      "details": {
+        "percent": 70,
+        "label": "Rendering conversation…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.763Z",
+      "event": "progress",
+      "details": {
+        "percent": 75,
+        "label": "Localizing embedded images…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.837Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.837Z",
+      "event": "progress",
+      "details": {
+        "percent": 75,
+        "label": "Localizing embedded images (1/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.992Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:37.992Z",
+      "event": "progress",
+      "details": {
+        "percent": 76,
+        "label": "Localizing embedded images (2/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.229Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.229Z",
+      "event": "progress",
+      "details": {
+        "percent": 76,
+        "label": "Localizing embedded images (3/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.598Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.598Z",
+      "event": "progress",
+      "details": {
+        "percent": 76,
+        "label": "Localizing embedded images (4/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.758Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.758Z",
+      "event": "progress",
+      "details": {
+        "percent": 77,
+        "label": "Localizing embedded images (5/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.925Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:38.925Z",
+      "event": "progress",
+      "details": {
+        "percent": 77,
+        "label": "Localizing embedded images (6/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.081Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.081Z",
+      "event": "progress",
+      "details": {
+        "percent": 77,
+        "label": "Localizing embedded images (7/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.301Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.301Z",
+      "event": "progress",
+      "details": {
+        "percent": 78,
+        "label": "Localizing embedded images (8/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.459Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.459Z",
+      "event": "progress",
+      "details": {
+        "percent": 78,
+        "label": "Localizing embedded images (9/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.952Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:39.952Z",
+      "event": "progress",
+      "details": {
+        "percent": 78,
+        "label": "Localizing embedded images (10/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:40.102Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:40.102Z",
+      "event": "progress",
+      "details": {
+        "percent": 78,
+        "label": "Localizing embedded images (11/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:40.254Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:16:40.254Z",
+      "event": "progress",
+      "details": {
+        "percent": 79,
+        "label": "Localizing embedded images (12/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:00.814Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "media.gettyimages.com",
+        "error": {
+          "name": "Error",
+          "message": "The operation was aborted. ",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:00.814Z",
+      "event": "progress",
+      "details": {
+        "percent": 79,
+        "label": "Localizing embedded images (13/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:00.977Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:00.977Z",
+      "event": "progress",
+      "details": {
+        "percent": 79,
+        "label": "Localizing embedded images (14/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.147Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.147Z",
+      "event": "progress",
+      "details": {
+        "percent": 80,
+        "label": "Localizing embedded images (15/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.346Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.346Z",
+      "event": "progress",
+      "details": {
+        "percent": 80,
+        "label": "Localizing embedded images (16/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.499Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.499Z",
+      "event": "progress",
+      "details": {
+        "percent": 80,
+        "label": "Localizing embedded images (17/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.660Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.661Z",
+      "event": "progress",
+      "details": {
+        "percent": 81,
+        "label": "Localizing embedded images (18/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.817Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:01.817Z",
+      "event": "progress",
+      "details": {
+        "percent": 81,
+        "label": "Localizing embedded images (19/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.013Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.013Z",
+      "event": "progress",
+      "details": {
+        "percent": 81,
+        "label": "Localizing embedded images (20/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.163Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.163Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (21/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.323Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.323Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (22/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.490Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.490Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (23/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.636Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.637Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (24/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.805Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.805Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (25/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.969Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:02.970Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (26/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.181Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.182Z",
+      "event": "progress",
+      "details": {
+        "percent": 82,
+        "label": "Localizing embedded images (27/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.341Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.341Z",
+      "event": "progress",
+      "details": {
+        "percent": 83,
+        "label": "Localizing embedded images (28/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.502Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.502Z",
+      "event": "progress",
+      "details": {
+        "percent": 83,
+        "label": "Localizing embedded images (29/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.721Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.722Z",
+      "event": "progress",
+      "details": {
+        "percent": 83,
+        "label": "Localizing embedded images (30/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.908Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:03.908Z",
+      "event": "progress",
+      "details": {
+        "percent": 84,
+        "label": "Localizing embedded images (31/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.078Z",
+      "event": "external-media.error",
+      "details": {
+        "host": "images.openai.com",
+        "error": {
+          "name": "Error",
+          "message": "NetworkError when attempting to fetch resource.",
+          "stack": "fetchBytes@moz-extension://<uuid>/src/content.js:250:32\n",
+          "status": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.079Z",
+      "event": "progress",
+      "details": {
+        "percent": 84,
+        "label": "Localizing embedded images (32/32)…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.079Z",
+      "event": "progress",
+      "details": {
+        "percent": 85,
+        "label": "Finalizing documents…",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.219Z",
+      "event": "progress",
+      "details": {
+        "percent": 90,
+        "label": "Conversation prepared.",
+        "done": null,
+        "total": null
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.219Z",
+      "event": "capability",
+      "details": {
+        "name": "conversation_api",
+        "status": "available",
+        "detail": ""
+      }
+    },
+    {
+      "at": "2026-10-14T20:17:04.219Z",
+      "event": "export.partial",
+      "details": {
+        "imageFailures": 64,
+        "fileFailures": 0
+      }
+    }
+  ],
+  "result": {
+    "image_failures": 64,
+    "file_failures": 0
+  }
+}
