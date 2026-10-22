@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "conversation_id": "6acbf0c0-36bc-83eb-8bf6-53c2bf6bd931",
+  "title": "ادامه استخراج DOM",
+  "created_at": 1791750336.850576,
+  "updated_at": 1792078220.522938,
+  "exported_at": "2026-10-22T02:36:04.174Z",
+  "message_count": 488,
+  "branch": "current",
+  "branch_count": 1,
+  "project_id": null,
+  "project_title": null,
+  "archived": false,
+  "shared": false,
+  "share_id": null,
+  "workspace_id": "b1263d73-b449-435b-8fa8-6c023818f291",
+  "export_formats": {
+    "markdown": true,
+    "html": true,
+    "embedded_markdown": false,
+    "raw_json": true,
+    "thinking_summaries": false
+  },
+  "capability_snapshot": {
+    "bearer_token": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-22T02:35:48.789Z"
+    }
+  }
+}
