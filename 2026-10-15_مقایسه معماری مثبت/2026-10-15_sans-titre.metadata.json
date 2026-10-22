@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "conversation_id": "6ad0f8fa-22a4-83eb-9047-586d7f17b883",
+  "title": "مقایسه معماری مثبت",
+  "created_at": 1792080122.859311,
+  "updated_at": 1792655085.059736,
+  "exported_at": "2026-10-22T07:42:59.658Z",
+  "message_count": 66,
+  "branch": "current",
+  "branch_count": 1,
+  "project_id": null,
+  "project_title": null,
+  "archived": false,
+  "shared": false,
+  "share_id": null,
+  "workspace_id": "b1263d73-b449-435b-8fa8-6c023818f291",
+  "export_formats": {
+    "markdown": true,
+    "html": true,
+    "embedded_markdown": false,
+    "raw_json": true,
+    "thinking_summaries": false
+  },
+  "capability_snapshot": {
+    "bearer_token": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-22T02:35:48.789Z"
+    },
+    "conversation_api": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-22T02:36:04.175Z"
+    }
+  }
+}
