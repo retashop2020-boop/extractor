@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "conversation_id": "6ad9df93-18bc-83eb-ab72-57bb5f6479ad",
+  "title": "ادامه معماری مثبت",
+  "created_at": 1792663443.769638,
+  "updated_at": 1792979079.987835,
+  "exported_at": "2026-10-26T01:42:58.241Z",
+  "message_count": 320,
+  "branch": "current",
+  "branch_count": 3,
+  "project_id": null,
+  "project_title": null,
+  "archived": false,
+  "shared": false,
+  "share_id": null,
+  "workspace_id": "b1263d73-b449-435b-8fa8-6c023818f291",
+  "export_formats": {
+    "markdown": true,
+    "html": true,
+    "embedded_markdown": false,
+    "raw_json": true,
+    "thinking_summaries": false
+  },
+  "capability_snapshot": {
+    "bearer_token": {
+      "status": "available",
+      "detail": "",
+      "checked_at": "2026-10-26T01:42:52.876Z"
+    }
+  }
+}
